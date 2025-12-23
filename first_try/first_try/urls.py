@@ -23,4 +23,5 @@ urlpatterns = [
     
     path('blog/', include('blog.urls')),
     path('', views.nate, name='nate'),
+    path('car/', views.car, name='car'),
 ]
